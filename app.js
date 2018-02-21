@@ -5,15 +5,17 @@ new Vue({
     ended: false
   },
   methods: {
-    punch: () => {
+    punch: function() {
+      console.log(this.health, this.ended);
       this.health -= 10;
       if (this.health <= 0) {
         this.ended = true;
       }
     },
-    restart: () => {
+    restart: function() {
       this.health = 100;
       this.ended = false;
+      console.log(this.health, this.ended);
     }
   },
   computed: {}
