@@ -1,0 +1,24 @@
+{
+  "name": "punchbag-game",
+  "version": "1.0.0",
+  "description": "A Punchbag Game made by using Vue.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puyanwei/punchbag-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puyanwei/punchbag-game/issues"
+  },
+  "homepage": "https://github.com/puyanwei/punchbag-game#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
