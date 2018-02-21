@@ -16,7 +16,7 @@
     </div>
 
     <!-- bag image -->
-    <div id="bag" :class="{burst: ended}"></div>
+    <div id="bag" :class="{ burst: ended }"></div>
 
     <!-- bag health -->
     <div id="bag-health">
@@ -25,7 +25,7 @@
 
     <!-- game controls -->
     <div id="controls">
-      <button @click="punch(), playSound(), pickWords()" v-show="!ended">Punch</button>
+      <button @click="punch(), playPunch(), pickWords()" v-show="!ended">Punch</button>
       <button @click="restart">Restart</button>
     </div>
 
