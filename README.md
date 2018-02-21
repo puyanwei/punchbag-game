@@ -2,7 +2,7 @@
 
 Click the punch button to reduce the life of the punching bag.
 
-![screen shot 2018-02-21 at 13 02 05](https://user-images.githubusercontent.com/14803518/36481399-a13fcd4e-1707-11e8-89ce-8d3244b0ecce.png)
+![punch-bag](https://user-images.githubusercontent.com/14803518/36499958-b659d818-173a-11e8-8331-a06ba115fd7d.gif)
 
 This game is created from [tutorial #13](https://www.youtube.com/watch?v=WjfpQlVem-8) of the [NetNinja's vue.js](https://www.youtube.com/watch?v=5LYrN_cAJoA&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) series. I have added extra features to this game adding a 60's style batman random word generator, sounds, and css styling.
 
