@@ -16,9 +16,8 @@ new Vue({
       this.ended = false;
     },
     playSound: function() {
-      var audio = new Audio(require("/assets/sounds/punch.mp3"));
+      var audio = new Audio("/assets/sounds/punch.mp3");
       audio.play();
-      console.log("issit playing?");
     }
   },
   computed: {}
