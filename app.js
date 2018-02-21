@@ -14,6 +14,11 @@ new Vue({
     restart: function() {
       this.health = 100;
       this.ended = false;
+    },
+    playSound: function() {
+      var audio = new Audio(require("/assets/sounds/punch.mp3"));
+      audio.play();
+      console.log("issit playing?");
     }
   },
   computed: {}

@@ -20,7 +20,7 @@
 
     <!-- game controls -->
     <div id="controls">
-      <button @click="punch" v-show="!ended">Punch</button>
+      <button @click="punch(), playSound()" v-show="!ended">Punch</button>
       <button @click="restart">Restart</button>
     </div>
   </div>
