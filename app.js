@@ -89,7 +89,8 @@ new Vue({
       "ZZWAP",
       "ZZZZWAP",
       "ZZZZZWAP"
-    ]
+    ],
+    chosenWord: ""
   },
   methods: {
     punch: function() {
@@ -105,6 +106,11 @@ new Vue({
     playSound: function() {
       var audio = new Audio("/assets/sounds/punch.mp3");
       audio.play();
+    },
+    pickWords: function() {
+      this.chosenWord = this.batman[
+        Math.floor(Math.random() * this.batman.length)
+      ];
     }
   },
   computed: {}

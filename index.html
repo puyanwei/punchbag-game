@@ -25,12 +25,12 @@
 
     <!-- game controls -->
     <div id="controls">
-      <button @click="punch(), playSound()" v-show="!ended">Punch</button>
+      <button @click="punch(), playSound(), pickWords()" v-show="!ended">Punch</button>
       <button @click="restart">Restart</button>
     </div>
 
     <div id="batman-words">
-      <h2></h2>
+      {{ chosenWord }}
     </div>
   </div>
 
