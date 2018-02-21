@@ -38,3 +38,5 @@ Go to your browser go to http://localhost:8080
 I have found the process quite enjoyable and it is interesting to see the comparisons between React and Vue. Vue seems a lot more readable and everything is pure Javascript so there is no need to worry about incorrect syntax. I have found it pretty satisfying to have the ideas of adding sounds, and the 60's batman fight scene onomatopoeias into my app.
 
 I am interested in seeing how I can test this, but since I am spiking by following the tutorial I may complete that first and come back to this later on.
+
+I have blogged about the details of this web app in more detail [here](https://thep-log.blogspot.co.uk/2018/02/a-vue-to-view-punchbag-game.html)
