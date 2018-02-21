@@ -1,8 +1,15 @@
 new Vue({
   el: "#app",
   data: {
-    test: "Vue connected!"
+    health: 100
   },
-  methods: {},
+  methods: {
+    punch: () => {
+      this.health -= 10;
+    },
+    restart: () => {
+      this.health = 100;
+    }
+  },
   computed: {}
 });
