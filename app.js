@@ -103,6 +103,7 @@ new Vue({
     restart: function() {
       this.health = 100;
       this.ended = false;
+      this.chosenWord = "";
     },
     playPunch: function() {
       var punch = new Audio("/assets/sounds/punch.mp3");
