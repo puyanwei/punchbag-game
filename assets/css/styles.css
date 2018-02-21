@@ -1,6 +1,12 @@
-h1,
+h1 {
+  text-align: center;
+  font-size: 300%;
+  font-family: "Roboto", sans-serif;
+}
+
 h4 {
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 #bag {
@@ -32,6 +38,7 @@ h4 {
 }
 
 #batman-words {
+  font-family: "Bangers", cursive;
   font-size: 800%;
   text-align: center;
 }
