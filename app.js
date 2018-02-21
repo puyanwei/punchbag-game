@@ -120,6 +120,5 @@ new Vue({
         Math.floor(Math.random() * this.batman.length)
       ];
     }
-  },
-  computed: {}
+  }
 });

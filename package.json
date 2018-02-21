@@ -4,8 +4,7 @@
   "description": "A Punchbag Game made by using Vue.js",
   "main": "app.js",
   "scripts": {
-    "build": "node build/build.js",
-    "start": "node server.js"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
