@@ -28,11 +28,10 @@ Go to your browser go to http://localhost:8080
 * Punch button reduces the life of the punchbag.
 * The life of the punchbag is visually represented by a lifebar, which reduces when punched.
 * With each punch, a sound is played and a word is chosen randomly from the array.
-
-![rigidpitifuldragonfly-size_restricted](https://user-images.githubusercontent.com/14803518/36483292-a2fbd69a-170d-11e8-8216-86ec970881f3.gif)
-
 * When the life is depleted, a sound will play to signify the fainting of your opponent. The punch button will disappear automatically, and the image will change.
 * The reset button will reset the life bar back to maximum health. The random word will be removed.
+
+![rigidpitifuldragonfly-size_restricted](https://user-images.githubusercontent.com/14803518/36483292-a2fbd69a-170d-11e8-8216-86ec970881f3.gif)
 
 ## Process
 
