@@ -28,13 +28,14 @@ Go to your browser go to http://localhost:8080
 * Punch button reduces the life of the punchbag.
 * The life of the punchbag is visually represented by a lifebar, which reduces when punched.
 * With each punch, a sound is played and a word is chosen randomly from the array.
-* When the life is depleted, a sound will play to signify the fainting of your opponent. The punch button will disappear automatically.
+
+![rigidpitifuldragonfly-size_restricted](https://user-images.githubusercontent.com/14803518/36483292-a2fbd69a-170d-11e8-8216-86ec970881f3.gif)
+
+* When the life is depleted, a sound will play to signify the fainting of your opponent. The punch button will disappear automatically, and the image will change.
 * The reset button will reset the life bar back to maximum health. The random word will be removed.
 
 ## Process
 
 I have found the process quite enjoyable and it is interesting to see the comparisons between React and Vue. Vue seems a lot more readable and everything is pure Javascript so there is no need to worry about incorrect syntax. I have found it pretty satisfying to have the ideas of adding sounds, and the 60's batman fight scene onomatopoeias into my app.
-
-![rigidpitifuldragonfly-size_restricted](https://user-images.githubusercontent.com/14803518/36483292-a2fbd69a-170d-11e8-8216-86ec970881f3.gif)
 
 I am interested in seeing how I can test this, but since I am spiking by following the tutorial I may complete that first and come back to this later on.

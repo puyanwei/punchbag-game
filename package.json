@@ -4,8 +4,8 @@
   "description": "A Punchbag Game made by using Vue.js",
   "main": "app.js",
   "scripts": {
-    "start": "http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node build/build.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
     "url": "https://github.com/puyanwei/punchbag-game/issues"
   },
   "homepage": "https://github.com/puyanwei/punchbag-game#readme",
-  "dependencies": {},
   "devDependencies": {
     "http-server": "^0.11.1"
   }
