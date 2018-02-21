@@ -6,7 +6,6 @@ new Vue({
   },
   methods: {
     punch: function() {
-      console.log(this.health, this.ended);
       this.health -= 10;
       if (this.health <= 0) {
         this.ended = true;
@@ -15,7 +14,6 @@ new Vue({
     restart: function() {
       this.health = 100;
       this.ended = false;
-      console.log(this.health, this.ended);
     }
   },
   computed: {}
