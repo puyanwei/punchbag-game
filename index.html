@@ -28,7 +28,7 @@
     <!-- game controls -->
     <div id="controls">
       <button @click="punch(), playPunch(), pickWords()" v-show="!ended">Punch</button>
-      <button @click="restart()">Restart</button>
+      <button @click="restart(), playSegway()">Restart</button>
     </div>
 
     <div id="batman-words">
