@@ -6,6 +6,8 @@ Click the punch button to reduce the life of the punching bag.
 
 This game is created from [tutorial #13](https://www.youtube.com/watch?v=WjfpQlVem-8) of the [NetNinja's vue.js](https://www.youtube.com/watch?v=5LYrN_cAJoA&list=PL4cUxeGkcC9gQcYgjhBoeQH7wiAyZNrYa) series. I have added extra features to this game adding a 60's style batman random word generator, sounds, and css styling.
 
+https://punching-bag.herokuapp.com/
+
 ## Tech Stack
 
 * HTML
