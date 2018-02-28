@@ -23,7 +23,7 @@ npm install
 npm start
 ```
 
-Go to your browser go to http://localhost:8080
+Go to your browser and go to http://localhost:8080
 
 ## Features
 
